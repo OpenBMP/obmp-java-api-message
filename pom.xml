@@ -24,7 +24,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit-version>3.8.1</junit-version>
         <supercsv-version>2.4.0</supercsv-version>
-        <slf4j-version>1.7.21</slf4j-version>
+        <slf4j-version>1.7.32</slf4j-version>
         <jackson-asl-version>1.9.13</jackson-asl-version>
     </properties>
 
