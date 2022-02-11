@@ -1,6 +1,6 @@
 package org.openbmp.api.parsed.message;
 /*
- * Copyright (c) 2015-2016 Cisco Systems, Inc. and others.  All rights reserved.
+ * Copyright (c) 2022 Cisco Systems, Inc. and others.  All rights reserved.
  *
  * This program and the accompanying materials are made available under the
  * terms of the Eclipse Public License v1.0 which accompanies this distribution,
@@ -21,7 +21,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Format class for unicast_prefix parsed messages (openbmp.parsed.unicast_prefix)
+ * Format class for l3vpn parsed messages (openbmp.parsed.l3vpn)
  * <p>
  * Schema Version: 1.5
  */
