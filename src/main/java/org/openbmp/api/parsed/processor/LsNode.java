@@ -84,8 +84,8 @@ public class LsNode {
             pojo.setNext_hop(fields.get(22));
             pojo.setName(fields.get(23));
 
-            pojo.setPrePolicy(fields.get(24).equals(1) ? true : false);
-            pojo.setAdjRibIn(fields.get(25).equals(1) ? true : false);
+            pojo.setPrePolicy(fields.get(24).equals("1") ? true : false);
+            pojo.setAdjRibIn(fields.get(25).equals("1") ? true : false);
 
             pojo.setSr_capabilities(fields.get(26));
 

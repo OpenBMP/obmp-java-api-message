@@ -103,8 +103,8 @@ public class LsLink {
             pojo.setRemote_node_asn(Long.valueOf(fields.get(41)));
             pojo.setEpe_peer_node_sid(fields.get(42));
 
-            pojo.setPrePolicy(fields.get(43).equals(1) ? true : false);
-            pojo.setAdjRibIn(fields.get(44).equals(1) ? true : false);
+            pojo.setPrePolicy(fields.get(43).equals("1") ? true : false);
+            pojo.setAdjRibIn(fields.get(44).equals("1") ? true : false);
 
             pojo.setAdjacency_segment_id(fields.get(45));
 

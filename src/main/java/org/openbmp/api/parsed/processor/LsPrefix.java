@@ -92,8 +92,8 @@ public class LsPrefix {
             pojo.setPrefix(fields.get(29));
             pojo.setPrefix_len(Integer.valueOf(fields.get(30)));
 
-            pojo.setPrePolicy(fields.get(31).equals(1) ? true : false);
-            pojo.setAdjRibIn(fields.get(32).equals(1) ? true : false);
+            pojo.setPrePolicy(fields.get(31).equals("1") ? true : false);
+            pojo.setAdjRibIn(fields.get(32).equals("1") ? true : false);
 
             pojo.setPrefix_sid_tlv(fields.get(33));
 

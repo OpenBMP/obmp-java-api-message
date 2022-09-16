@@ -77,8 +77,8 @@ public class BaseAttribute {
             ba.setCommunity_list(fields.get(17));
             ba.setExt_community_list(fields.get(18));
             ba.setCluster_list(fields.get(19));
-            ba.setAtomicAggregate(fields.get(20).length() != 0 || fields.get(20).equals(0) ? false : true);
-            ba.setNextHopIpv4(fields.get(21).length() == 0 || fields.get(21).equals(0) ? false : true);
+            ba.setAtomicAggregate(fields.get(20).length() != 0 || fields.get(20).equals("0") ? false : true);
+            ba.setNextHopIpv4(fields.get(21).length() == 0 || fields.get(21).equals("0") ? false : true);
             ba.setOriginator_id(fields.get(22));
             ba.setLarge_community_list(fields.get(23));
 

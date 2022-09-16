@@ -86,8 +86,8 @@ public class UnicastPrefix {
             ucast.setOriginator_id(fields.get(26));
             ucast.setPath_id(Long.valueOf(fields.get(27)));
             ucast.setLabels(fields.get(28));
-            ucast.setPrePolicy(fields.get(29).equals(1) ? true : false);
-            ucast.setAdjRibIn(fields.get(30).equals(1) ? true : false);
+            ucast.setPrePolicy(fields.get(29).equals("1") ? true : false);
+            ucast.setAdjRibIn(fields.get(30).equals("1") ? true : false);
             ucast.setLarge_community_list(fields.get(31));
 
         } catch (Exception ex) {
