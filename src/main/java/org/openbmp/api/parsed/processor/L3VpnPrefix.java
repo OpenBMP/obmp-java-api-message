@@ -85,13 +85,8 @@ public class L3VpnPrefix {
             l3vpn.setOriginator_id(fields.get(26));
             l3vpn.setPath_id(Long.valueOf(fields.get(27)));
             l3vpn.setLabels(fields.get(28));
-<<<<<<< HEAD
             l3vpn.setPrePolicy(fields.get(29).equals("1") ? true : false);
             l3vpn.setAdjRibIn(fields.get(30).equals("1") ? true : false);
-=======
-            l3vpn.setPrePolicy(fields.get(29).equals(1) ? true : false);
-            l3vpn.setAdjRibIn(fields.get(30).equals(1) ? true : false);
->>>>>>> 5f4468fb0b872bd9205b0f7c71593f784a3e0a8f
             l3vpn.setRd(fields.get(31));
             l3vpn.setRd_type(Integer.valueOf(fields.get(32).length() != 0 ? Integer.valueOf(fields.get(32)) : 0));
             l3vpn.setLarge_community_list(fields.get(33));
